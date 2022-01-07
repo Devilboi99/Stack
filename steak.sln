@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "steak", "steak\steak.csproj", "{B2BF0550-7B4D-422A-B72C-EB58FBBD7213}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassStack", "ClassStack\ClassStack.csproj", "{B2BF0550-7B4D-422A-B72C-EB58FBBD7213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testing my steak", "testing my steak\testing my steak.csproj", "{8ADB1C7D-48AB-4BCC-AB98-7C706D79DFC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programm", "Programm\Programm.csproj", "{8ADB1C7D-48AB-4BCC-AB98-7C706D79DFC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStack", "TestStack\TestStack.csproj", "{EDB48D57-6CF5-4B67-867B-47EEEB8F6B69}"
 EndProject

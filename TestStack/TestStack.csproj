@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\steak\steak.csproj" />
+      <ProjectReference Include="..\ClassStack\ClassStack.csproj" />
     </ItemGroup>
 
 </Project>

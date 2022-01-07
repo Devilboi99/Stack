@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using System;
-using steak;
+using stack;
 
 namespace TestStack
 {

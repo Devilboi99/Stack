@@ -1254,14 +1254,14 @@
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
       },
-      "steak/1.0.0": {
+      "ClassStack/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
-          "bin/placeholder/steak.dll": {}
+          "bin/placeholder/ClassStack.dll": {}
         },
         "runtime": {
-          "bin/placeholder/steak.dll": {}
+          "bin/placeholder/ClassStack.dll": {}
         }
       }
     }
@@ -4953,19 +4953,19 @@
         "system.xml.xpath.xmldocument.nuspec"
       ]
     },
-    "steak/1.0.0": {
+    "ClassStack/1.0.0": {
       "type": "project",
-      "path": "../steak/steak.csproj",
-      "msbuildProject": "../steak/steak.csproj"
+      "path": "../ClassStack/ClassStack.csproj",
+      "msbuildProject": "../ClassStack/ClassStack.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ClassStack >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "NUnit >= 3.13.1",
       "NUnit3TestAdapter >= 3.17.0",
-      "coverlet.collector >= 3.0.2",
-      "steak >= 1.0.0"
+      "coverlet.collector >= 3.0.2"
     ]
   },
   "packageFolders": {
@@ -4993,8 +4993,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\user\\RiderProjects\\steak\\steak\\steak.csproj": {
-              "projectPath": "C:\\Users\\user\\RiderProjects\\steak\\steak\\steak.csproj"
+            "C:\\Users\\user\\RiderProjects\\steak\\ClassStack\\ClassStack.csproj": {
+              "projectPath": "C:\\Users\\user\\RiderProjects\\steak\\ClassStack\\ClassStack.csproj"
             }
           }
         }

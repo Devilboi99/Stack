@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\RiderProjects\\steak\\TestStack\\TestStack.csproj": {}
+    "C:\\Users\\user\\RiderProjects\\steak\\Programm\\Programm.csproj": {}
   },
   "projects": {
     "C:\\Users\\user\\RiderProjects\\steak\\ClassStack\\ClassStack.csproj": {
@@ -56,14 +56,14 @@
         }
       }
     },
-    "C:\\Users\\user\\RiderProjects\\steak\\TestStack\\TestStack.csproj": {
+    "C:\\Users\\user\\RiderProjects\\steak\\Programm\\Programm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\steak\\TestStack\\TestStack.csproj",
-        "projectName": "TestStack",
-        "projectPath": "C:\\Users\\user\\RiderProjects\\steak\\TestStack\\TestStack.csproj",
+        "projectUniqueName": "C:\\Users\\user\\RiderProjects\\steak\\Programm\\Programm.csproj",
+        "projectName": "Programm",
+        "projectPath": "C:\\Users\\user\\RiderProjects\\steak\\Programm\\Programm.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\RiderProjects\\steak\\TestStack\\obj\\",
+        "outputPath": "C:\\Users\\user\\RiderProjects\\steak\\Programm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -93,24 +93,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
-              "target": "Package",
-              "version": "[16.9.4, )"
-            },
-            "NUnit": {
-              "target": "Package",
-              "version": "[3.13.1, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[3.17.0, )"
-            },
-            "coverlet.collector": {
-              "target": "Package",
-              "version": "[3.0.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
