@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Programm/1.0.0": {
+        "dependencies": {
+          "ClassStack": "1.0.0"
+        },
+        "runtime": {
+          "Programm.dll": {}
+        }
+      },
+      "ClassStack/1.0.0": {
+        "runtime": {
+          "ClassStack.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Programm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassStack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
