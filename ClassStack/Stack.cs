@@ -4,7 +4,7 @@ namespace stack
 {
     public class Stack<T>
     {
-        private T[] _elements;  // Outer wild лучшая игра в мирк
+        private T[] _elements;
         private int _lastSlot;
         private int _totalSlot;
 
@@ -33,10 +33,9 @@ namespace stack
 
         private void Expand()
         {
-            var newElements = new T[_elements.Length * 2];
+            var newElements = new T[_totalSlot *= 2];
             for (var j = 0; _elements.Length > j; j++)
                 newElements[j] = _elements[j];
-            _totalSlot *= 2;
 
             _elements = newElements;
         }
@@ -44,15 +43,14 @@ namespace stack
         public object Top()
         {
             return _lastSlot == 0 ?
-                new ArgumentException("Пустой стек. хули ты пытаешься?") :
+                new ArgumentException("Стек пуст") :
                 _elements[_lastSlot - 1];
         }
 
         public object Pop()
-        {
-            var element = _elements[_lastSlot - 1];
-            _elements[_lastSlot - 1] = default;
-            _lastSlot--;
+        { 
+            var element = _elements[--_lastSlot];
+            _elements[_lastSlot] = default;
             return element;
         }
 
