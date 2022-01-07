@@ -4,7 +4,7 @@ namespace stack
 {
     public class Stack<T>
     {
-        private T[] _elements;  // Outer wild лучшая игра 
+        private T[] _elements;  // Outer wild лучшая игра
         private int _lastSlot;
         private int _totalSlot;
 
