@@ -1,0 +1,19 @@
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\testing my steak.exe
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\testing my steak.deps.json
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\testing my steak.runtimeconfig.json
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\testing my steak.runtimeconfig.dev.json
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\testing my steak.dll
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\ref\testing my steak.dll
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\testing my steak.pdb
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\steak.dll
+C:\Users\user\RiderProjects\steak\testing my steak\bin\Debug\net5.0\steak.pdb
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.AssemblyInfoInputs.cache
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.AssemblyInfo.cs
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.csproj.CopyComplete
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.dll
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\ref\testing my steak.dll
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.pdb
+C:\Users\user\RiderProjects\steak\testing my steak\obj\Debug\net5.0\testing my steak.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+C:\Users\user\RiderProjects\steak\steak\bin\Debug\net5.0\steak.deps.json
+C:\Users\user\RiderProjects\steak\steak\bin\Debug\net5.0\steak.dll
+C:\Users\user\RiderProjects\steak\steak\bin\Debug\net5.0\ref\steak.dll
+C:\Users\user\RiderProjects\steak\steak\bin\Debug\net5.0\steak.pdb
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.csproj.AssemblyReference.cache
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.AssemblyInfoInputs.cache
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.AssemblyInfo.cs
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.csproj.CoreCompileInputs.cache
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.dll
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\ref\steak.dll
+C:\Users\user\RiderProjects\steak\steak\obj\Debug\net5.0\steak.pdb

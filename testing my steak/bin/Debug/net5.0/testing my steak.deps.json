@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "testing my steak/1.0.0": {
+        "dependencies": {
+          "steak": "1.0.0"
+        },
+        "runtime": {
+          "testing my steak.dll": {}
+        }
+      },
+      "steak/1.0.0": {
+        "runtime": {
+          "steak.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "testing my steak/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "steak/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
