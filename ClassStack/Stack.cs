@@ -33,10 +33,9 @@ namespace stack
 
         private void Expand()
         {
-            var newElements = new T[_elements.Length * 2];
+            var newElements = new T[ _totalSlot *= 2];
             for (var j = 0; _elements.Length > j; j++)
                 newElements[j] = _elements[j];
-            _totalSlot *= 2;
 
             _elements = newElements;
         }
