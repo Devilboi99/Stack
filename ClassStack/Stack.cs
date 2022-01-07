@@ -43,15 +43,14 @@ namespace stack
         public object Top()
         {
             return _lastSlot == 0 ?
-                new ArgumentException("Пустой стек. хули ты пытаешься?") :
+                new ArgumentException("Стек пуст?") :
                 _elements[_lastSlot - 1];
         }
 
         public object Pop()
-        {
-            var element = _elements[_lastSlot - 1];
-            _elements[_lastSlot - 1] = default;
-            _lastSlot--;
+        { 
+            var element = _elements[--_lastSlot];
+            _elements[_lastSlot] = default;
             return element;
         }
 
