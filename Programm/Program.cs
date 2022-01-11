@@ -16,6 +16,8 @@ namespace testing_my_steak
             name.Push(14);
             name.Push(12);
             Console.WriteLine(name.Pop());
+            Console.WriteLine(name.Pop());
+            Console.WriteLine(name.Pop());
             Console.WriteLine(name.Size);
         }
     }

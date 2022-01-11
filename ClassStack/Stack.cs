@@ -5,30 +5,30 @@ namespace stack
     public class Stack<T>
     {
         private T[] _elements;
-        private int _lastSlot;
+        private int _freeSlot;
         private int _totalSlot;
 
-        public int Size => _lastSlot + 1;
+        public int Size => _freeSlot ;
         
         public Stack(int capacity)
         {
             _elements = new T[capacity];
             _totalSlot = capacity;
-            _lastSlot = 0;
+            _freeSlot = 0;
         }
 
         public Stack()
         {
-            _elements = new T[1];
-            _totalSlot = 1;
-            _lastSlot = 0;
+            _elements = new T[4];
+            _totalSlot = 4;
+            _freeSlot = 0;
         }
 
         public void Push(T obj)
         {
-            if (_lastSlot >= _totalSlot)
+            if (_freeSlot >= _totalSlot)
                 Expand();
-            _elements[_lastSlot++] = obj;
+            _elements[_freeSlot++] = obj;
         }
 
         private void Expand()
@@ -42,15 +42,17 @@ namespace stack
 
         public object Top()
         {
-            return _lastSlot == 0 ?
+            return _freeSlot == 0 ? 
                 new ArgumentException("Стек пуст") :
-                _elements[_lastSlot - 1];
+                _elements[_freeSlot - 1];
         }
 
         public object Pop()
-        { 
-            var element = _elements[--_lastSlot];
-            _elements[_lastSlot] = default;
+        {
+            if (_freeSlot == 0) 
+                return new ArgumentException("Стек пуст");
+            var element = _elements[--_freeSlot];
+            _elements[_freeSlot] = default;
             return element;
         }
 
@@ -58,7 +60,7 @@ namespace stack
         {
             for (var j = 0; _elements.Length > j; j++)
                 _elements[j] = default;
-            _lastSlot = 0;
+            _freeSlot = 0;
         }
     }
 }

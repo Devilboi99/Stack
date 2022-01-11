@@ -8,11 +8,11 @@
     ".NETCoreApp,Version=v5.0": {
       "TestStack/1.0.0": {
         "dependencies": {
+          "ClassStack": "1.0.0",
           "Microsoft.NET.Test.Sdk": "16.9.4",
           "NUnit": "3.13.1",
           "NUnit3TestAdapter": "3.17.0",
-          "coverlet.collector": "3.0.2",
-          "steak": "1.0.0"
+          "coverlet.collector": "3.0.2"
         },
         "runtime": {
           "TestStack.dll": {}
@@ -870,9 +870,9 @@
           }
         }
       },
-      "steak/1.0.0": {
+      "ClassStack/1.0.0": {
         "runtime": {
-          "steak.dll": {}
+          "ClassStack.dll": {}
         }
       }
     }
@@ -1338,7 +1338,7 @@
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
     },
-    "steak/1.0.0": {
+    "ClassStack/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
