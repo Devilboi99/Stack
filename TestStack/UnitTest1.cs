@@ -14,15 +14,15 @@ namespace TestStack
         [TestCase(10, 5, "98765", 5,"4")]
         [TestCase(2,0, "", 2,"1")]
         [TestCase(1,1,"0",0, "System.ArgumentException: Стек пуст")]
-        public void Test(int count,int countPopSkip, string exceptedValue, int exceptedSize, string exceptedTop)
+        public void Test(int countElements,int countPop, string exceptedValue, int exceptedSize, string exceptedTop)
         {
             var stack = new Stack<int>();
             var actualValue = new StringBuilder();
-            for (var j = 0; j < count; j++)
+            for (var j = 0; j < countElements; j++)
             {
                 stack.Push(j);
             }
-            for (var j = 0; countPopSkip > j; j++)
+            for (var j = 0; countPop > j; j++)
                 actualValue.Append(stack.Pop());
             
             Assert.AreEqual(exceptedValue, actualValue.ToString());
