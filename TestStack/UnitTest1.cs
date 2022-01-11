@@ -32,18 +32,5 @@ namespace TestStack
             Assert.AreEqual(stack.Size, 0);
             
         }
-
-        [TestCase(24, 21)]
-        public void TestPop(int countPush, int countPop)
-        {
-            
-
-        }
-
-        [TestFixture]
-    public class TestStackPop
-    {
     }
-
-}
 }
