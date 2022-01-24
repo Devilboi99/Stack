@@ -1,7 +1,9 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=da8ed4d0_002D0b6f_002D4d9b_002D926e_002Ddcee0fe94efd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::EDB48D57-6CF5-4B67-867B-47EEEB8F6B69::net5.0::TestStack.TestCasePushAndPop.Test&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;NUnit3x::EDB48D57-6CF5-4B67-867B-47EEEB8F6B69::net5.0::TestStack.TestCasePushAndPop.Test(10,5)&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::EDB48D57-6CF5-4B67-867B-47EEEB8F6B69::net5.0::TestStack.TestCasePushAndPop.CompletelyTestStack(2,1,"1",1,"0")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::EDB48D57-6CF5-4B67-867B-47EEEB8F6B69::net5.0::TestStack.TestCasePushAndPop.CompletelyTestStack(2,0,"",2,"1")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::EDB48D57-6CF5-4B67-867B-47EEEB8F6B69::net5.0::TestStack.TestCasePushAndPop.CompletelyTestStack(10,5,"98765",5,"4")&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::EDB48D57-6CF5-4B67-867B-47EEEB8F6B69::net5.0::TestStack.TestCasePushAndPop.CompletelyTestStack&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

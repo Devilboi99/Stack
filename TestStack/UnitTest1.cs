@@ -1,8 +1,4 @@
 using NUnit.Framework;
-using System;
-using System.Collections.Immutable;
-using System.Collections.Specialized;
-using System.Drawing;
 using System.Text;
 using stack;
 
@@ -13,8 +9,8 @@ namespace TestStack
     {
         [TestCase(10, 5, "98765", 5,"4")]
         [TestCase(2,0, "", 2,"1")]
-        [TestCase(1,1,"0",0, "System.ArgumentException: Стек пуст")]
-        public void Test(int countElements,int countPop, string exceptedValue, int exceptedSize, string exceptedTop)
+        [TestCase(2,1,"1",1, "0")]
+        public void CompletelyTestStack(int countElements,int countPop, string exceptedValue, int exceptedSize, string exceptedTop)
         {
             var stack = new Stack<int>();
             var actualValue = new StringBuilder();
@@ -28,9 +24,7 @@ namespace TestStack
             Assert.AreEqual(exceptedValue, actualValue.ToString());
             Assert.AreEqual(stack.Top().ToString(), exceptedTop);
             Assert.AreEqual(exceptedSize, stack.Size);
-            stack.Clear();
-            Assert.AreEqual(stack.Size, 0);
-            
         }
+        
     }
 }

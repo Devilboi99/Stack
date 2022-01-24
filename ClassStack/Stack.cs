@@ -9,21 +9,18 @@ namespace stack
         private int _totalSlot;
 
         public int Size => _freeSlot ;
-        
-        public Stack(int capacity)
+
+        public Stack(int capacity) 
         {
             _elements = new T[capacity];
             _totalSlot = capacity;
             _freeSlot = 0;
         }
 
-        public Stack()
+        public Stack() : this (4)
         {
-            _elements = new T[4];
-            _totalSlot = 4;
-            _freeSlot = 0;
         }
-
+        
         public void Push(T obj)
         {
             if (_freeSlot >= _totalSlot)
@@ -43,14 +40,14 @@ namespace stack
         public object Top()
         {
             return _freeSlot == 0 ? 
-                new ArgumentException("Стек пуст") :
+                throw new ArgumentException("Стек пуст") :
                 _elements[_freeSlot - 1];
         }
 
         public object Pop()
         {
             if (_freeSlot == 0) 
-                return new ArgumentException("Стек пуст");
+                throw new ArgumentException("Стек пуст");
             var element = _elements[--_freeSlot];
             _elements[_freeSlot] = default;
             return element;
@@ -61,6 +58,17 @@ namespace stack
             for (var j = 0; _elements.Length > j; j++)
                 _elements[j] = default;
             _freeSlot = 0;
+        }
+        
+    }
+
+    public static class ForStack
+    {
+        public static void Peek<T>(this Stack<T> stack)
+        {
+                
+            for (var j = 0; j < stack.Size; j++)
+                Console.WriteLine(stack);
         }
     }
 }
